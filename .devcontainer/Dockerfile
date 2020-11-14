@@ -30,4 +30,5 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
 
 RUN apt-get update && apt-get install gcc-8-aarch64-linux-gnu g++-8-aarch64-linux-gnu -y
 
-
+RUN git config --global user.name "Harel Ashwal"
+RUN git config --global user.email "harel.ashwal@opsystech.com"
