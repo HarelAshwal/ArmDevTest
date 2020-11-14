@@ -1,1 +1,1 @@
-sshpass -p "root" ssh root@172.23.37.11 ./main_arm64.out
+sshpass -p "root" ssh -oStrictHostKeyChecking=no root@172.23.37.11 ./main_arm64.out
