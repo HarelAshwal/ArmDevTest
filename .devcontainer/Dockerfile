@@ -33,5 +33,6 @@ RUN apt-get update && apt-get install gcc-8-aarch64-linux-gnu g++-8-aarch64-linu
 RUN git config --global user.name "Harel Ashwal"
 RUN git config --global user.email "harel.ashwal@opsystech.com"
 
+RUN apt-get install sshpass -y
 
 RUN ls

@@ -9,6 +9,18 @@
                 "kind": "build",
                 "isDefault": true
             }
+        },
+        {
+            "label": "Build Main ARM64",
+            "type": "shell",
+            "command": "aarch64-linux-gnu-g++-8 -o main_arm64.out main.cpp -static",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
         }
     ]
 }
